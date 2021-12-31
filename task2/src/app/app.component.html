@@ -5,6 +5,11 @@
     class="card-body mx-auto"
     (ngSubmit)="derivative()"
   >
+    <h2>
+      dy/dx x<sup> n</sup> = n
+      <span class="span">x</span>
+      x <sup>(n-1) </sup>
+    </h2>
     <div class="mb-3">
       <label for="name">enter the x value</label>
       <input name="num1" formControlName="num1" required />
@@ -15,7 +20,8 @@
     </div>
     <input type="submit" value="submit" />
   </form>
-  
+
   {{ answer }}
-  {{printSinWave}}
+  <!-- {{printSinWave}} -->
+  <img src="../assets/derivatives.jpg" class="img" />
 </div>

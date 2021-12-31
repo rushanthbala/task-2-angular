@@ -1,6 +1,14 @@
 .form {
-    max-width: 25rem;
-    margin: 0 auto;
-    margin-top: 5rem;
-  }
-  
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.span {
+  color: #ccc;
+  font-size: 1.5rem;
+}
+.img {
+  width: 300px;
+  /* width: 100%; */
+  text-align: center;
+}
